@@ -48,6 +48,8 @@ public class Location {
         return Type;
     }
 
+    
+
     public void setLocationType(String locationType) {
         this.Type = locationType;
     }
