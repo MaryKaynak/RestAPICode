@@ -23,6 +23,7 @@ public class LocationTest {
         credentials.put( "username", "nigeria_tenant_admin" );
         credentials.put( "password", "TnvLOl54WxR75vylop2A" );
 
+
         cookies = given()
                 .body( credentials )
                 .contentType( ContentType.JSON )
